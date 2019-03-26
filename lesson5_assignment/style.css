@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document created by Lauren Proce, Spring 2019*/
+
+body {
+        font-family: "Arial" , Times, serif;
+        font-size: 12px;
+        line-height: 1.2em;
+        color: #31E3DB ;
+        background-color:#333333 ;
+        padding: 0  38px;
+}
+
+/* regular text styles --------------*/
+p, li, td {
+        letter-spacing: 0.2em;
+        color: #CCCCCC;
+}
+h1 {
+            font-size: 28px;
+            padding: 5px 0;
+            font-variant: small-caps;
+            letter-spacing: .6em;
+            line-height: 3em;
+}
+h2 {
+            font-size: 27px;
+            padding: 8px;
+            font-variant: small-caps;
+            letter-spacing: .6em;
+            background-color: #9630CC ;
+        
+}
+h3 {
+            font-size: 26px;
+            letter-spacing: 0.6em;
+            border-bottom-width: 1px;
+            border-bottom-style: inset;
+            border-bottom-color: #D129D9 ;
+            padding: 6px 0;
+            font-variant: small-caps;
+            font-style: italic;
+}
+
+/* link styles ---------------- */
+a:link {
+        font-weight: bold;
+        color: #D129D9 ;
+        text-decoration: none;
+}
+a:visited {
+        font-weight: bold;
+        color: #D129D9 ;
+        text-decoration: none;
+}
+a:hover {
+        color: #FFFF00 ;
+}
+/* list styles -------------------------- */
+ul li {
+        list-style-image: url(images/star.png);
+        margin-left: 14px;
+}
+ol {
+        margin-left: 16px;
+}
+
+/* table styles ---------------- */
+table {
+        border: solid #9630CC 1px;
+}
+td {
+        padding: 6px;
+        border: solid #9630CC  1px;
+}
+th {
+        font-weight: bold;
+        background-color: #BF2BE3;
+        text-align: center;
+        padding: 6px;
+        border: solid #9630CC 1px;
+}
+
+/* border styles --------------- */
+hr {
+        border: solid #9630CC 1px;
+}
+
+img {
+        border: solid #9630CC 1px;
+}
+
+iframe {
+        border: solid #9630CC 1px;
+        padding: 8px;
+        margin: 8px;
+}
