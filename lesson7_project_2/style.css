@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document created by Lauren Proce, Spring 2019*/
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial" , Times, serif;
+        font-size: 14px;
+        line-height: 1.2em;
+        color: #31E3DB ;
+        background-color:#333333 ;
+        padding: 0  38px;
+}
+
+/* regular text styles --------------*/
+p, li, td {
+        letter-spacing: 0.2em;
+        color: #CCCCCC;
+}
+h1 {
+            font-size: 28px;
+            padding: 0 40px;
+            font-variant: small-caps;
+            letter-spacing: .6em;
+            line-height: 3em;
+}
+h2 {
+            font-size: 27px;
+            padding: 0 40px;
+            font-variant: small-caps;
+            letter-spacing: .6em;
+            background-color: #9630CC ;
+        
+}
+h3 {
+            font-size: 26px;
+            letter-spacing: 0.6em;
+            border-bottom-width: 1px;
+            border-bottom-style: inset;
+            border-bottom-color: #D129D9 ;
+            padding: 0 40px;
+            font-variant: small-caps;
+            font-style: italic;
+}
+
+/* link styles ---------------- */
+a:link {
+        font-weight: bold;
+        color: #D129D9 ;
+        text-decoration: none;
+}
+a:visited {
+        font-weight: bold;
+        color: #D129D9 ;
+        text-decoration: none;
+}
+a:hover {
+        color: #FFFF00 ;
+}
+/* list styles -------------------------- */
+ul li {
+        list-style-image: url(images/star.png);
+        margin-left: 14px;
+}
+ol {
+        margin-left: 60px;
+}
+ol li{
+        padding-left: 0px;
+}
+
+/* table styles ---------------- */
+table {
+        border: solid #9630CC 1px;
+}
+td {
+        padding: 6px;
+        border: solid #9630CC  1px;
+}
+th {
+        font-weight: bold;
+        background-color: #BF2BE3;
+        text-align: center;
+        padding: 6px;
+        border: solid #9630CC 1px;
+}
+
+/* border styles --------------- */
+hr {
+        border: solid #9630CC 1px;
+}
+
+img {
+        border: solid #9630CC 1px;
+}
+
+iframe {
+        border: solid #9630CC 1px;
+        padding: 8px;
+        margin: 8px;
+}
+/* DIV styles for page layout */
+
+#container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #333333;
+        overflow: hidden;
+}
+#header{
+  width: 100%;
+  background-color: #333333;
+  border-bottom: 1px solid #D129D9;
+  padding-bottom: 40px;
+}
+#content{
+    width: 900px;
+    float: left;
+  padding-bottom: 40px;  
+}
+#sidebar{
+     width: 280px; 
+     float: left;
+     margin-top: 50px;
+     margin-right: 20px;
+        
+}
+#sidebar p{
+     padding: 10px;
+     background: #333333;
+     border: 1px solid #D129D9;
+     border-radius: 12px;
+     box-shadow: 10px 10px 5px #f00;
+}
+#footer{
+  width: 100%;
+  background-color: #333333;
+  border-top: 1px solid #D129D9;
+  padding: 40px 0;
+  clear: both;
+  
+}
