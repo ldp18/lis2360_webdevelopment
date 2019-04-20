@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Arial', Times, serif;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+}
+h1 {
+    padding: 10px 0;
+    text-align: center;
+    
+}
+h4{
+    padding: 20px 0;
+    font-weight: bold;
+}
+table {
+    border: solid #9630CC 1px;
+    border-collapse:collapse;
+    padding: 10px;
+}
+td {
+    padding: 6px;
+    border: solid #9630CC 1px;
+}
+th {
+    font-weight: bold;
+    background-color: #9630CC;
+    text-align: center;
+    padding: 6px;
+    border: solid #9630CC 1px;
+}
+a:link {
+    color: #D129D9;
+}
+a:visited {
+    color: #D129D9;
+}
+a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+#splash{
+    background-color: #31E3DB;
+    height: 600px;
+}
+#research{
+    background-color: #D129D9;
+    height: 900px;
+}
+#media{
+    background-color: #9630CC;
+    height: 600px;
+}
+#symptoms{
+    background-color:#31E3DB;
+    height: 600px;
+}
+#footer{
+    background-color: #ffffff;
+    height: 300px;
+}
+/*------------ Containers --------- */
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.half_container {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+/* ---------- Nav Bars -------------*/
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+ul#menu{
+    list-style: none;
+    padding-top: 0px;
+}
+ul#menu li{
+    float: left;
+    padding-bottom: 20px;
+}
+ul#menu li a.button {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 100px 20px 100px;
+}
+ul#menu li a.button:hover{
+    background-color: rgba(42, 188, 238, 0.1);
+}
+
+/*------------ Title -------------*/
+
+#title-page{
+    width: 100%;
+    padding-top: 200px;
+    color: #fff;
+    text-align: right;
+}
+#title-page h1 {
+    font-family: 'Arial', Times, serif;
+    font-size: 60px;
+    text-shadow: 3px 3px #000;
+}
+#title-page h3 {
+    font-size: 1em;
+    font-style: italic;
+    margin: 0 40px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+}
+
+/* ------------ Footer ------------*/
+
+#credits {
+    text-align: center;
+}
+#credits table {
+    margin: 0 auto;
+}
+#credits p {
+    font-size: .8em;
+    margin: 10px 0;
+}
+
+/*-------------- random -------*/
+
+.fltright{
+    float:right;
+    margin: 20px;
+}
+.fltleft{
+    float: left;
+    margin: 20px 20px 20px 0;
+}
